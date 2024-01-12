@@ -1,0 +1,119 @@
+/* beranda mulai */
+/* sidebar mulai */
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar{
+    background-color: rgb(137, 139, 143);
+    width: 260px;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.main-content{
+    background-color: whitesmoke;
+    flex-grow: 1;
+}
+
+.sidebar .description-header{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; 
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.sidebar .header .list-item{
+    display: flex;
+    flex-direction: row;
+    padding: 12px 10px;
+    align-items: center;
+    border-radius: 8px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.sidebar .header .list-item .icon{
+    width: 17.92px;
+    height: 16px;
+    margin-right: 12px;
+}
+
+.sidebar .header .ilustration{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0 22px 0;
+    box-sizing: border-box;
+}
+
+.sidebar .main .list-item .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFF;
+}
+
+.sidebar .main .list-item .icon{
+    margin-right: 12px;
+}
+
+.sidebar .main .list-item{
+    display: flex;
+    flex-direction: row;
+    width: 212px;
+    padding: 12px 10px;
+    align-items: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.sidebar .main .list-item:hover{
+    background:rgb(11, 8, 202); 
+    transition: all ease-in .2s;
+}
+/* side bar selesai */
+
+/* main beranda mulai */
+.main-content{
+ 
+}
+
+.right-side-class{
+    float: right;
+}
+.module {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+footer {
+    background-color: #b2b2cf;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* main beranda selesai */
+/* beranda selesai */
